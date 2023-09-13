@@ -1,7 +1,8 @@
 <?php
 
+//создать txt файл
 
-$filename = "/opt/lampp/htdocs/testtask/task.txt";
+$filename = "task.txt";
 $file = fopen($filename, 'w');
 
 if($file) {
